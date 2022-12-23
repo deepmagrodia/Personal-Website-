@@ -1,0 +1,58 @@
+.about {
+    color: black;
+    margin-top: 50px;
+}
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #000000;
+    ;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about .content ul strong {
+    margin-right: 10px;
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #149ddd;
+    line-height: 0;
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow: scroll;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container>div {
+        margin-left: 0px;
+        position: relative;
+        left: 0%;
+    }
+    section {
+        margin-bottom: 50px;
+    }
+    section>div {
+        margin: auto;
+    }
+}
